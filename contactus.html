@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contactus</title>
+	<link rel="stylesheet" type="text/css" href="GirlsInTek.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+	<meta name="viewport" content = "width=device-width, initial-scale =1.0">
+	<style type="text/css">
+	*{
+		margin: 0;
+	}
+	body{
+		font-family:'Roboto Slab',serif;
+         background:white;
+         text-align: center;
+	}
+		.container{
+			height: 100vh;
+			width: 100vw;
+		}
+		h2{
+			margin: 20px;
+		}
+		.formcontainer{
+			height: 100vh;
+			width: 50vw;
+			background-color: #D0E9FF;
+			position: absolute;
+			left: 25%;
+		}
+		fieldset{
+			
+			margin-bottom: 10px;
+		}
+		input{
+			background-color:;
+			border: 1px solid black;
+			margin-bottom: 5px;
+			border-radius: 5px;
+			margin: 10px;
+		}
+		/*input:invalid{
+			border: 2px solid red;
+		}*/
+		button{
+			width: 20%;
+			height: 40px;
+			background-color: white; 
+			border-radius:20px;
+			font-size: 20px;
+			font-family:'Roboto Slab',serif;
+			box-shadow: transparent;
+			color: navy;
+		}
+		textarea{
+			margin: 10px;
+		}
+
+		@media screen and (max-width:992px){
+			.formcontainer{
+				width: 50%;
+
+			}
+			button{
+				width: 50%;
+				height: 50%
+				font-size:10px;
+				font-family:'Roboto Slab',serif;
+				box-shadow: transparent;
+				color: navy;
+
+			}
+		}
+		@media screen and(max-width: 600px){
+			.formcontainer{
+				width: 100px;
+			}
+			button{
+				width: 50%;
+				height: 50%
+				font-size:10px;
+				font-family:'Roboto Slab',serif;
+				box-shadow: transparent;
+				color: navy;
+
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="formcontainer">
+	<h2>Contact Us </h2>
+
+	<form method="POST">
+		<fieldset>
+			 <input type="text" name="name" placeholder="Full Name" required="*"><br>
+			 <input type="text" name="name" placeholder="Organization" required=""><br>
+			<input type="text" name="name" placeholder="Email" required=""><br>
+			<input type="text" name="name" placeholder="LinkedIn Account" required=""><br>
+			<textarea rows="10" placeholder="Please type your message" required=""></textarea><br>
+			<button onclick="setTimeout(myfunction,1000)">SEND</button>
+			
+
+		</fieldset>
+
+		
+	</form>
+</div>
+</div>
+<script type="text/javascript">
+ function myfunction(){
+	alert('Thanks for your contribution')
+}
+</script>
+</body>
+</html>

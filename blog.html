@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GirlsInTek</title>
+	<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>OUR GALLERY</h1>
+  <p></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="6.png" style="width:100%">
+    <img src="girl.png" style="width:100%">
+    <img src="7.png" style="width:100%">
+    <img src="9.jpg" style="width:100%">
+    <img src="EVE2.jpg" style="width:100%">
+    <img src="hi.jpg" style="width:100%">
+    <img src="kay.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="hello.jpg" style="width:100%">
+    <img src="helo.jpg" style="width:100%">
+    <img src="group.jpg" style="width:100%">
+    <img src="godsway.jpg" style="width:100%">
+    <img src="EVE2.jpg" style="width:100%">
+    <img src="3.jpeg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="2.jpeg" style="width:100%">
+    <img src="9.jpg" style="width:100%">
+    <img src="log.jpeg" style="width:100%">
+    <img src="8.png" style="width:100%">
+    <img src="4.jpg" style="width:100%">
+    <img src="group.jpg" style="width:100%">
+    <img src="3.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="11.jpg" style="width:100%">
+    <img src="8.png" style="width:100%">
+    <img src="5.jpg" style="width:100%">
+    <img src="1.jpeg" style="width:100%">
+    <img src="10.jpg" style="width:100%">
+    <img src="11.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color:#D0E9FF;
+			margin: 0;
+			padding: 0;
+		}
+
+		.formcontainer{
+			height: 50%;
+			width: 50%;
+			position:relative;
+			top: 20%;
+			left: 25%;
+			background-color: white;
+		}
+		.pane{
+			
+			color:black;
+			border:1px solid black;
+			background-color: white;
+			padding: 10px;
+			margin: 0;
+
+		}
+		.detailSect{
+			padding:10px;
+			float: left;
+			width: 22%;
+			background-color: white;
+			margin-top: 2px;
+
+
+		}
+		.custfill{
+			float: right;
+			width: 72%;
+			background-color:#B0E2FF;
+			margin-top: 2px;
+			margin-bottom: 5px;
+			float: both;
+		}
+		button{
+			background-color:#B0E2FF;
+			color:black;
+			box-shadow: 10px;
+			width: 70px;
+			height: 50px;
+			border-radius: 15px;
+		}
+		input{
+			margin: 7px;
+
+
+		}
+		ul{
+			margin: 0;
+		}
+		li{
+			list-style-type: none;
+			margin-bottom: 7px;
+		}
+		@media screen and (max-width:992px){
+			.formcontainer{
+				width: 50%;
+
+			}
+			button{
+				width: 50%;
+				height: 50%
+				font-size:10px;
+				font-family:'Roboto Slab',serif;
+				box-shadow: transparent;
+				color: navy;
+
+			}
+		}
+		@media screen and(max-width: 600px){
+			.formcontainer{
+				width: 100%;
+				font-size: 20px;
+				margin: 10%;
+			}
+
+			.detailSect{
+			padding:10px;
+			float: left;
+			width: 22%;
+			background-color: white;
+			margin-top: 2px;
+			font-size: 20%;
+
+
+		}
+		.custfill{
+			float: right;
+			width: 72%;
+			background-color:#B0E2FF;
+			margin-top: 2px;
+			margin-bottom: 5px;
+			float: both;
+		}
+			input{
+				width: 90%;
+			}
+			button{
+				width: 50%;
+				height: 50%
+				font-size:10px;
+				font-family:'Roboto Slab',serif;
+				box-shadow: transparent;
+				color: navy;
+
+			}
+		}
+
+</style>
+		
+		
+</head>
+<body>
+
+<form class="formcontainer">
+	<fieldset>
+		<h3>Support Girls InTek</h3><hr>
+		<div class="pane">your Deatils</div>
+		<div class="detailSect">
+			<ul>
+
+			<li>First Name </li>
+			<li>Last Name</li>
+			<li>Organization</li>
+			<li>Email</li>
+
+		</ul>
+		
+		</div>
+		<div class="custfill">
+			<input type="text" name="Fname"><br>
+			<input type="text" name="Lname"><br>
+			<input type="text" name="organization"><br>
+			<input type="text" name="email"><br>
+
+		</div>
+		<div class="pane">Donation Details</div>
+		<div class="detailSect">
+			<ul>
+			<li>Amount(In GH$) </li>
+		</ul>
+		</div>
+		<div class="custfill">
+			<input type="text" name="">
+		</div>
+
+
+
+		<div class="pane">Security Check</div>
+		<div class="detailSect">
+			<ul>
+			<li>Simple Math?</li>
+			<li>What is 2 + 2?</li>
+		</ul>
+		</div>
+
+		<div class="custfill">
+			<input type="text" name="">
+		</div>
+		<button type="submit" id="proceed">Proceed</button>
+	</fieldset>
+</form>
+<script type="text/javascript">
+	let proceed = document.getElementById('proceed');
+	proceed.addEventListener('click'function(){
+		    
+	})
+</script>
+</body>
+</html>
